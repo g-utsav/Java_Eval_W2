@@ -18,7 +18,7 @@ public class Instructor extends Person{
 	@Override
 	public String toString() {
 		return "Instructor [instructorId=" + instructorId + ", salary=" + salary +", address="+
-	this.address+ "]";
+	this.address+ "Person [name=" + name + ", gender=" + gender + ", address=" + address + "]]";
 	}
 	
 	

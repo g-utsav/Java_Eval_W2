@@ -20,7 +20,7 @@ public class Student extends Person{
 	@Override
 	public String toString() {
 		return "Student [StudentId="+this.studentId+", CourseFees = "+this.courseFee+" courseEnrolled = "
-				+ ""+this.courseEnrolled+"Address = "+this.address;
+				+ ""+this.courseEnrolled+"Address = "+this.address+"Person [name=" + name + ", gender=" + gender + ", address=" + address + "]]]";
 	}
 	
 	
